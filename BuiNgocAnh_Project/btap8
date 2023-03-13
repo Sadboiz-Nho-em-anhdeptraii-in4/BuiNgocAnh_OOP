@@ -1,0 +1,17 @@
+package ltcb;
+import java.util.Scanner;
+public class Project_07 {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		 System.out.println("nhap n vao: ");
+		 int n=sc.nextInt();
+		 int a[]=new int[n];
+		 float tb=0;
+		 for(int i=0;i<n;i++) {
+			 System.out.println("nhap ptu thu a["+i+"] ");
+		 a[i]=sc.nextInt();
+		 tb+=a[i];
+		}
+		 tb=tb/n;
+		 System.out.println(tb);}
+}

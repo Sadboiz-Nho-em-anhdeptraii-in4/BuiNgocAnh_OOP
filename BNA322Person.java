@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class THH450Person {
+public class BNA322Person {
     public String hoten;
     public int tuoi;
     public long cccd;
@@ -32,8 +32,8 @@ public class THH450Person {
         return "\nHo ten : "+hoten+", tuoi : "+tuoi+", cccd : "+cccd;
     }
 public static void main(String[] args) {
-    ArrayList<THH450Person> arrListPerson = new ArrayList<>();
-    THH450Person ps = new THH450Person();
+    ArrayList<BNA322Person> arrListPerson = new ArrayList<>();
+    BNA322Person ps = new BNA322Person();
     Scanner sc =new Scanner(System.in);
     System.out.println("Nhap so phan muon them vao ArrayListPerson : ");
     int n = sc.nextInt();
@@ -42,7 +42,7 @@ public static void main(String[] args) {
         arrListPerson.add(ps);
     }
     System.out.println("Nhap thong tin muon xoa : ");
-    THH450Person Psdel = new THH450Person();
+    BNA322Person Psdel = new BNA322Person();
     Psdel.nhapthongtin();
     for(int i = 0 ; i<arrListPerson.size();i++){
         if(arrListPerson.contains(Psdel)){
